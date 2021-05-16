@@ -16,6 +16,8 @@ export class NewsapiservicesService {
   scienceApiUrl = "https://newsapi.org/v2/top-headlines?country=us&category=science&apiKey=c4c3551ce15945438fbc290d0f7ccbfd";
 
   sportsApiUrl = "https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=c4c3551ce15945438fbc290d0f7ccbfd";
+  
+  //new api code: "d79cf9f33e9647c9b498713c67d11c75"
 
   topHeading(): Observable<any> {
     return this._http.get(this.newsApiUrl);
